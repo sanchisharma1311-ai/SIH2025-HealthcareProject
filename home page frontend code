@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | HealthVerify Platform</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <h1 class="logo">HealthVerify</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="appointment.html">Appointment</a></li>
+                    <li><a href="chatbot.html">AI Chatbot</a></li>
+                    <li><a href="verification.html">Verify Doctor</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="container">
+                <h2>Your Trustworthy Health Companion</h2>
+                <p>Verify doctor credentials, book appointments, and report fraudulent activity for a safer healthcare experience.</p>
+                <div class="cta-buttons">
+                    <a href="verification.html" class="btn primary-btn">Start Verification Now</a>
+                    <a href="appointment.html" class="btn secondary-btn">Book an Appointment</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container info-grid">
+                <div class="info-card">
+                    <h3>✅ Verification System</h3>
+                    <p>Instant cross-reference with official medical council databases.</p>
+                </div>
+                <div class="info-card">
+                    <h3>📅 Appointment Booking</h3>
+                    <p>Schedule visits with verified practitioners easily and securely.</p>
+                </div>
+                <div class="info-card">
+                    <h3>🤖 AI Health Assistant</h3>
+                    <p>Get preliminary health information and guidance 24/7.</p>
+                </div>
+                <div class="info-card">
+                    <h3>🚨 Report Fraud</h3>
+                    <p>Contribute to a safer community by reporting fake practitioners.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="call-to-action">
+            <div class="container">
+                <h3>Make Informed Healthcare Choices</h3>
+                <p>Safety and transparency in medicine are our core missions.</p>
+                <a href="report.html" class="btn report-btn">Report a Fake Doctor</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 HealthVerify Platform. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a> | 
+                <a href="terms.html">Terms & Conditions</a> |
+                <a href="faqs.html">FAQs</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
